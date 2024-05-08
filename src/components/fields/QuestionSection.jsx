@@ -65,9 +65,9 @@ export default function QuestionSection() {
                       {faq.question}
                     </h1>
                     {openIndex === index ? (
-                      <FaMinus className="flex-shrink-0 w-6 h-6 text-blue-500" />
+                      <FaMinus className="flex-shrink-0 w-6 h-6 text-blue-500 transition-transform duration-300 transform hover:scale-90" />
                     ) : (
-                      <FaPlus className="flex-shrink-0 w-6 h-6 text-blue-500" />
+                      <FaPlus className="flex-shrink-0 w-6 h-6 text-blue-500 transition-transform duration-300 transform hover:scale-90" />
                     )}
                   </button>
                   {openIndex === index && (

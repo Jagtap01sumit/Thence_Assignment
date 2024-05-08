@@ -109,7 +109,7 @@ export default function Main() {
 
                 <div className="">
                   <div
-                    className="w-60 h-20 mb-20 px-10 py-8 bg-zinc-900 rounded-full justify-center items-center gap-4 inline-flex hover:cursor-pointer hover:shadow-none transition-transform duration-300 transform hover:scale-90"
+                    className="w-60 h-20 mb-20 px-10 py-8 bg-zinc-900 rounded-full justify-center items-center gap-4 inline-flex hover:cursor-pointer hover:shadow-none transition-transform duration-300 transform hover:scale-90 hover:bg-zinc-700"
                     onClick={handleExploreClick}
                   >
                     <div className="w-full text-center text-white text-xl font-semibold font-manrope capitalize ">
